@@ -1,0 +1,114 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(images/pattern-background-desktop.svg)  repeat-x;
+    background-color:  hsl(225, 100%, 94%);
+}
+
+.attribution{
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 2px 20px hsl(223, 47%, 23%);
+}
+
+.imag{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.p1{
+    text-align: center;
+}
+
+p{
+    color:  hsl(223, 47%, 23%);
+    padding: 0 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.center-div{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.right-div{
+    display: flex;
+    align-items: center;
+}
+
+.link:hover{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    opacity: .8;
+}
+
+.sub-ti{
+    font-weight: bold;
+}
+
+.p2{
+    margin-left: -70px;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+    background-color: hsl(245, 75%, 52%);
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    border: none;
+    box-shadow: 0 5px 10px hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+.button:hover{
+    opacity: .8;
+}
+
+.last{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.last:hover{
+    opacity:inherit;
+}
+
