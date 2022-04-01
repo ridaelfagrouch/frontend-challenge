@@ -1,2 +1,2 @@
 # frontend-challenge
-simple challenge using html@css
+simple challenge using html end css
